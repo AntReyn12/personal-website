@@ -1,0 +1,182 @@
+/***** BODY STYLES *****/
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/***** HEADER *****/
+header {
+    height: 600px;
+    background: url('../img/hero.jpg');
+    background-size: 1500px 600px;
+    background-position: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+header h1, header p {
+    text-align: center;
+}
+header h1 {
+    padding-top: 175px;
+    font-size: 54px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #ccffff;
+}
+#header-intro {
+    font-size: 28px;
+    font-weight: bold;
+    color: #004d4d;
+}
+
+/***** MY PORTFOLIO *****/
+#portfolio h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    color: #004d4d;
+    text-decoration: underline;
+}
+#portfolio {
+    margin: 0 75px;
+    overflow: auto;
+}
+
+.website {
+    padding-top: 0;
+}
+
+.image {
+    float: left;
+    width: 800px;
+    height: 500px;
+    margin-top: 50px;
+}
+.website-info {
+    float: left;
+    width: 400px;
+    height: 300px;
+    padding-left: 75px;
+    padding-top: 10px;
+    color: #004d4d;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#jubilee-austen .image {
+    background-image: url('../img/jubilee-austen.png');
+    background-size: cover;
+    border: 1px solid grey;
+}
+
+#rogue-pickings .image {
+    background-image: url('../img/rogue-pickings.png');
+    background-size: cover;
+    border: 1px solid grey;
+}
+
+#recipe-collection .image {
+    background-image: url('../img/recipe-collection.png');
+    background-size: cover;
+    border: 1px solid grey;
+}
+
+.website-title span {
+    font-size: 20px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.description {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#about {
+    background-color: #006080;
+    margin-top: 25px;
+    color: #ccffff;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+#about h2 {
+    text-align: center;
+    padding-top: 0;
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+    font-size: 36px;
+}
+
+.about-me-image {
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-left: 120px;
+    margin-right: 50px;
+    border: 1px solid white;
+}
+.about-me {
+    float: left;
+    width: 600px;
+    height: 300px;
+    margin-left: 75px;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 24px;
+}
+
+#about .about-me-image {
+    background-image: url('../img/me.jpg');
+    background-size: cover;
+}
+
+#about span {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+#contact {
+    background-color: #ccffff;
+    width: 1500px;
+    height: auto;
+    color: #006080;
+    overflow: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#contact h2 {
+  text-align: center;
+  padding-top: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  padding-top: 10px;
+}
+
+.contact-info, .social, .meet {
+    float: left;
+    font-size: 22px;
+    width: 450px;
+}
+.contact-info {
+    margin-left: 25px;
+}
+.social img {
+    height: 75px;
+    width: 75px;
+}
+
+#contact span {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.social {
+    padding-left: 25px;
+}
+
+.meet {
+    margin-right: 25px;
+}
