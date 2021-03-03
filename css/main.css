@@ -128,6 +128,27 @@ header p {
     color: #ccffff;
     padding-bottom: 50px;
 }
+
+#about .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+#about .about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about img {
+    width: 100%;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
 #about h2 {
     text-align: center;
     padding-top: 0;
@@ -138,10 +159,12 @@ header p {
 
 .about-me {
     margin-left: 75px;
+    margin-right: 10px;
     font-size: 20px;
     margin-top: 0;
     padding-top: 0;
-    line-height: 24px;
+    line-height: 26px;
+    width: 100%;
 }
 
 #about span {
@@ -152,25 +175,35 @@ header p {
 #contact {
     background-color: #ccffff;
     color: #006080;
-    overflow: auto;
     text-align: center;
     padding-bottom: 50px;
 }
+
+#contact .content-wrapper {
+    width: 100%;
+}
+
+#contact .contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
 #contact h2 {
-  text-align: center;
-  padding-top: 0;
-  font-family: 'Lato', sans-serif;
-  font-size: 36px;
-  padding-top: 10px;
+    text-align: center;
+    padding-top: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    margin-top: 0;
+    padding-top: 20px;
+    text-decoration: underline;
 }
 
 .contact-info, .social, .meet {
     font-size: 22px;
-}
-.contact-info {
-    margin-left: 25px;
-}
-.social img {
+    flex-basis: 33%;
 }
 
 #contact span {
@@ -179,10 +212,7 @@ header p {
     text-decoration: underline;
 }
 
-.social {
-    padding-left: 25px;
-}
-
-.meet {
-    margin-right: 25px;
+#contact i {
+    font-size: 36px;
+    color: #006080;
 }
