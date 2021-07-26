@@ -273,4 +273,17 @@ header a {
   header {
     min-height: 750px;
   }
+
+  header p {
+    margin-bottom: 50px;
+    padding-top: 125px;
+  }
+
+  header nav {
+    font-size: 1.75em;
+  }
+
+  header nav ul {
+    width: 50%;
+  }
 }
