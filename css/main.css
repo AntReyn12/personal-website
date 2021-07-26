@@ -1,153 +1,191 @@
 /***** GENERAL STYLES *****/
 html {
-    font-size: 16px;
-    width: 100%;
+  font-size: 16px;
+  width: 100%;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .content-wrapper {
-    width: 90%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 figure {
-    margin: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /***** MOBILE STYLES *****/
 
 /***** HEADER *****/
 header {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background: url('../img/hero.jpg');
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    min-height: 600px;
+  background: url("../img/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
 }
 
 header .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
-header h1, header p {
-    text-align: center;
+header h1,
+header p {
+  text-align: center;
 }
 header h1 {
   padding-top: 100px;
-    font-size: 3.375em;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    color: #ccffff;
+  font-size: 3.375em;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #ccffff;
 }
 header p {
-    font-size: 2.15em;
-    font-weight: bold;
-    color: #004d4d;
-    margin-bottom: 125px;
+  font-size: 2.15em;
+  font-weight: bold;
+  color: #004d4d;
+  margin-bottom: 125px;
 }
 
+header .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav {
+  font-size: 2em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ccffff;
+  width: 60%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 20px;
+}
+
+header nav li {
+  padding: 10px;
+}
+
+header a {
+  text-decoration: underline;
+  color: #ccffff;
+}
 /***** MY PORTFOLIO *****/
 #portfolio h2 {
-    text-align: center;
-    padding-top: 5px;
-    font-family: 'Lato', sans-serif;
-    font-size: 2.25em;
-    color: #004d4d;
-    text-decoration: underline;
-    margin-bottom: 35px;
+  text-align: center;
+  padding-top: 5px;
+  font-family: "Lato", sans-serif;
+  font-size: 2.25em;
+  color: #004d4d;
+  text-decoration: underline;
+  margin-bottom: 35px;
 }
 
 #portfolio .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 .website {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding-top: 0;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 0;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
 }
 
 .website img {
-    width: 100%;
+  width: 100%;
 }
 
 .website-info {
-    padding-left: 75px;
-    padding-top: 15px;
-    color: #004d4d;
-    text-align: left;
-    font-family: 'Lato', sans-serif;
-    width: 100%;
-    font-size: 1.875em;
-    margin-right: 15px;
+  padding-left: 75px;
+  padding-top: 15px;
+  color: #004d4d;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  font-size: 1.875em;
+  margin-right: 15px;
 }
 
 .website figure {
-    border: 1px solid #004d4d;
+  border: 1px solid #004d4d;
 }
 
 .website-title span {
-    font-size: 20px;
-    padding-top: 20px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 
 .website-title {
-    margin-top: 0;
-    margin-bottom: 25px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.website a {
+  text-decoration: underline;
+  color: #006080;
 }
 .description {
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
 }
 
 #rogue-pickings .website-title span {
-    line-height: 5px;
+  line-height: 5px;
 }
 
-
 #about {
-    background-color: #006080;
-    margin-top: 25px;
-    color: #ccffff;
-    padding-bottom: 50px;
+  background-color: #006080;
+  margin-top: 25px;
+  color: #ccffff;
+  padding-bottom: 50px;
 }
 
 #about .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 #about .about-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #about img {
-    width: 100%;
-    border: 1px solid white;
-    margin-left: 10px;
-    min-height: 550px;
+  width: 100%;
+  border: 1px solid white;
+  margin-left: 10px;
+  min-height: 550px;
 }
 
 .image-div {
@@ -156,77 +194,83 @@ header p {
 }
 
 #about h2 {
-    text-align: center;
-    padding-top: 0;
-    font-family: 'Lato', sans-serif;
-    text-decoration: underline;
-    font-size: 36px;
+  text-align: center;
+  padding-top: 0;
+  font-family: "Lato", sans-serif;
+  text-decoration: underline;
+  font-size: 36px;
 }
 
 .about-me {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 20px;
-    margin-top: 0;
-    padding-top: 0;
-    line-height: 26px;
-    width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 26px;
+  width: 100%;
 }
 
 #about span {
-    font-size: 24px;
-    line-height: 26px;
+  font-size: 24px;
+  line-height: 26px;
 }
 
 #contact {
-    background-color: #ccffff;
-    color: #006080;
-    text-align: center;
-    padding-bottom: 50px;
+  background-color: #ccffff;
+  color: #006080;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 #contact .content-wrapper {
-    width: 100%;
+  width: 100%;
 }
 
 #contact .contact-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 #contact h2 {
-    text-align: center;
-    padding-top: 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 36px;
-    margin-top: 0;
-    padding-top: 20px;
-    text-decoration: underline;
+  text-align: center;
+  padding-top: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  margin-top: 0;
+  padding-top: 20px;
+  text-decoration: underline;
 }
 
-.contact-info, .social, .meet {
-    font-size: 22px;
-    flex-basis: 33%;
+.contact-info,
+.social,
+.meet {
+  font-size: 22px;
+  flex-basis: 33%;
 }
 
 #contact span {
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    text-decoration: underline;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  text-decoration: underline;
 }
 
 #contact i {
-    font-size: 36px;
-    color: #006080;
+  font-size: 36px;
+  color: #006080;
 }
 
+#contact a {
+  text-decoration: underline;
+  color: #006080;
+}
 
 /***** DESKTOP ONLY *****/
 @media only screen and (min-width: 1200px) {
   header {
-      min-height: 900px;
+    min-height: 750px;
   }
 }
