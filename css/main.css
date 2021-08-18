@@ -93,9 +93,8 @@ header a {
   text-align: center;
   padding-top: 5px;
   font-family: "Lato", sans-serif;
-  font-size: 2.25em;
+  font-size: 2.5em;
   color: #004d4d;
-  text-decoration: underline;
   margin-bottom: 35px;
 }
 
@@ -105,6 +104,22 @@ header a {
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
+}
+
+.category {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.category h3 {
+  text-align: center;
+  color: #004d4d;
+  font-size: 2em;
+  text-decoration: underline;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
 }
 
 .website {
