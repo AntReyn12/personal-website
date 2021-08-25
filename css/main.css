@@ -27,7 +27,7 @@ ul {
 
 /***** HEADER *****/
 header {
-  background: url("../img/hero.jpg");
+  background-image: url("../img/desk.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -46,16 +46,21 @@ header p {
 }
 header h1 {
   padding-top: 100px;
-  font-size: 3.375em;
+  font-size: 3.5em;
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  color: #ccffff;
+  color: bisque;
+  text-decoration: underline bisque;
+  text-shadow: 0.06em 0 black, 0 0.06em black, -0.06em 0 black, 0 -0.06em black;
 }
+
 header p {
-  font-size: 2.15em;
+  font-size: 2.3em;
   font-weight: bold;
-  color: #004d4d;
+  color: black;
+  text-decoration: underline black;
   margin-bottom: 125px;
+  text-shadow: 0.07em 0 white, 0 0.07em white, -0.07em 0 white, 0 -0.07em white;
 }
 
 header .container {
@@ -65,11 +70,11 @@ header .container {
 }
 
 header nav {
-  font-size: 2em;
+  font-size: 2.25em;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: #ccffff;
+  color: white;
   width: 60%;
 }
 
@@ -86,7 +91,8 @@ header nav li {
 
 header a {
   text-decoration: underline;
-  color: #ccffff;
+  color: black;
+  font-weight: bold;
 }
 /***** MY PORTFOLIO *****/
 #portfolio h2 {
@@ -286,7 +292,7 @@ header a {
 /***** DESKTOP ONLY *****/
 @media only screen and (min-width: 1200px) {
   header {
-    min-height: 750px;
+    min-height: 700px;
   }
 
   header p {
