@@ -250,10 +250,14 @@ header a {
 
 #contact .contact-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-direction: row;
   width: 100%;
+}
+
+#contact .contact-info {
+  padding-left: 10px;
 }
 
 #contact h2 {
