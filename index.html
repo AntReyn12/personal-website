@@ -1,169 +1,344 @@
-<!doctype html>
-<html lang= "en">
-    <head>
-        <title>Anthony Reynolds Portfolio</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/2c2a357a66.js" crossorigin="anonymous"></script>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Anthony Reynolds Portfolio</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2c2a357a66.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-    <body>
-        <header>
-          <div class="container">
-          <nav>
-            <ul>
-              <li><a href="#portfolio">Portfolio</a></li>             
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content-wrapper">
+        <h1>Hello! My name is Anthony Reynolds.</h1>
+        <p>
+          Web developer, coder, and creative thinker from Middletown, Delaware.
+        </p>
+      </div>
+    </header>
+
+    <section id="portfolio">
+      <div class="content-wrapper">
+        <h2>My Portfolio</h2>
+        <div class="category">
+          <h3>React</h3>
+        </div>
+        <article id="todos" class="website">
+          <figure>
+            <img src="img/todos.jpg" alt="Todos List" />
+          </figure>
+          <div class="website-info">
+            <a
+              href="https://antreyn12.github.io/react-project-1/"
+              target="_blank"
+            >
+              <h4 class="website-title">
+                Todos List<br />
+                <span>React Exercise</span>
+              </h4></a
+            >
+            <p class="description">
+              A simple React app where the user clicks on a todo item and is
+              taken to another page displaying that todo's information. This app
+              showcases the use of fecthing APIs in react using the useEffect
+              hook, as well as the useState hook to store the information.
+            </p>
           </div>
-            <div class="content-wrapper">
-                <h1>Hello! My name is Anthony Reynolds.</h1>
-                <p>Web developer, coder, and creative thinker from Middletown, Delaware.</p>
-            </div>
-        </header>
+        </article>
 
-        <section id="portfolio">
-            <div class="content-wrapper">
-            <h2>My Portfolio</h2>
-            <div class="category">
-            <h3>HTML &amp; CSS</h3>
-            </div>
-              <article id="jubilee-austen" class="website">
-                  <figure>
-                      <img src="img/jubilee-austen.png" alt="Jubilee Austen Website">
-                  </figure>
-                  <div class="website-info">
-                      <a href="https://antreyn12.github.io/Jubilee-Austen/" target="_blank">
-                        <h4 class="website-title">Jubilee Austen Website<br></a>
-                          <span>HTML &amp; CSS Website Design</span></h4>
-                          <p class="description">This is a simple portfolio design with 3 main sections (About, Work and Contact). This was the first website I ever designed and was a big inspiration for my own portfolio website that you are on right now.</p>
-                  </div>
-              </article>
-
-              <article id="rogue-pickings" class="website">
-                  <figure>
-                      <img src="img/rogue-pickings.png" alt="Rogue Pickings Website">
-                  </figure>
-                  <div class="website-info">
-                      <a href="https://antreyn12.github.io/rogue-pickings-starter/" target="_blank">
-                        <h4 class="website-title">Rogue Pickings Project<br></a>
-                          <span>HTML &amp; CSS from Photoshop Design Comp</span></h4>
-                          <p class="description">My project titled "Rogue Pickings" displays a mock-up home page website for a business. This project incorporated formatting various sections to give the website a clean and organized look on all devices. </p>
-                  </div>
-              </article>
-
-              <article id="recipe-collection" class="website">
-                <figure>
-                    <img src="img/recipe-collection.png" alt="Recipe Collection Website">
-                </figure>
-                <div class="website-info">
-                    <a href="https://antreyn12.github.io/recipe-project/" target="_blank">
-                      <h4 class="website-title">Recipe Collection<br></a>
-                        <span>HTML &amp; CSS Exercise</span></h4>
-                        <p class="description">This project displays three recipes, including the prep time, cook time, total time, ingredients and directions for each recipe. This project is heavily CSS focused and was a great way for me to hone in on my styling skills.</p>
-                </div>
-              </article>
-
-              <div class="category">
-                <h3>JavaScript</h3>
-                </div>
-              <article id="guess-the-word" class="website">
-                <figure>
-                  <img src="img/guess-the-word.jpg" alt="Guess The Word">
-                </figure>
-                <div class="website-info">
-                  <a href="https://antreyn12.github.io/guess-the-word/" target="_blank">
-                    <h4 class="website-title">Guess The Word Game<br></a>
-                      <span>JavaScript Exercise</span></h4>
-                      <p class="description">My project "Guess The Word" is simple in concept. There is a random word the player must guess the letters to. They have 8 guesses and every new game that is started, a new random word is selected for the player to guess.</p>
-                </div>
-              </article>
-
-              <article id="github-repo-gallery" class="website">
-                <figure>
-                  <img src="img/github-repo-gallery.jpg" alt="Github Repo Gallery">
-                </figure>
-                <div class="website-info">
-                  <a href="https://antreyn12.github.io/github-repo-gallery/" target="_blank">
-                    <h4 class="website-title">Github Repo Gallery<br></a>
-                      <span>JavaScript Exercise</span></h4>
-                      <p class="description">This is a JavaScript focused project in which my Github profile and my repos are displayed. When a user clicks on a repo, it shows more information about the repo as well as the option to view the repo on Github. Feel free to browse through all the projects I've been working on!</p>
-                  </div>
-                </article>
-
-                <div class="category">
-                  <h3>React</h3>
-                  </div>
-                <article id="todos" class="website">
-                  <figure>
-                    <img src="img/todos.jpg" alt="Todos List">
-                  </figure>
-                  <div class="website-info">
-                    <a href="https://antreyn12.github.io/react-project-1/" target="_blank">
-                      <h4 class="website-title">Todos List<br></a>
-                        <span>React Exercise</span></h4>
-                        <p class="description">A simple React app where the user clicks on a todo item and is taken to another page displaying that todo's information. This app showcases the use of fecthing APIs in react using the useEffect hook, as well as the useState hook to store the information.</p>
-                  </div>
-                </article>
-
-                <article is="material-ui" class="website">
-                  <figure>
-                    <img src="img/material-ui.jpg" alt="material ui">
-                  </figure>
-                  <div class="website-info">
-                    <a href="https://antreyn12.github.io/material-ui/" target="_blank">
-                      <h4 class="website-title">Material UI Design<br></a>
-                        <span>React App</span></h4>
-                        <p class="description">This app is a mockup online marketplace for coffee makers. There are six cards displaying different information about various coffee makers. This app displays the use of Material UI and JS React working together to create an organized and efficient website design. </p>
-                  </div>
-                </article>
-              </div>
-        </section>
-
-        <section id="about">
-            <div class="content-wrapper">
-                <h2>About Me</h2>
-            <article class="about-section">
-              <div class="image-div">
-              <figure>
-                  <img src="img/pro-pic.jpg" alt="Picture of Me">
-              </figure>
-            </div>
-            <div class="about-me">
-                <p><span>Welcome! I am 25 years old from Middletown, Delaware. Please refrain from the classic "Dela-where?" jokes. We are very aware of how small of a state we are!</span><br><br> All jokes aside, I graduated from the University of Delaware with a degree in Psychology and a minor in Philosophy. Website development is a passion I discovered during the COVID pandemic. While on lockdown I took the initiative to grow my skill set and learn how to code, and I could not be happier with my decision. I discovered that a career in tech was perfect for me. At the moment I am proficient in HTML, CSS, Git, JavaScript and React, but I am continuing to learn new languages and skills every day. I have the ability to learn new concepts quickly and I am persistent when working on any project so it turns out the absolute best it can be. I pride myself on my work ethic, punctuality and ability to work well with others. The opportunity to better myself each and every day is what drives me. <br><br> Thank you for checking out my website and I am looking forward to working with you!</p>
-            </div>
-            </article>
+        <article is="material-ui" class="website">
+          <figure>
+            <img src="img/material-ui.jpg" alt="material ui" />
+          </figure>
+          <div class="website-info">
+            <a href="https://antreyn12.github.io/material-ui/" target="_blank">
+              <h4 class="website-title">
+                Material UI Design<br />
+                <span>React App</span>
+              </h4></a
+            >
+            <p class="description">
+              This app is a mockup online marketplace for coffee makers. There
+              are six cards displaying different information about various
+              coffee makers. This app displays the use of Material UI and JS
+              React working together to create an organized and efficient
+              website design.
+            </p>
           </div>
-        </section>
+        </article>
 
-        <section id="contact">
-          <div class="content-wrapper">
-              <h2>Let's Connect</h2>
-          <div class="contact-section">
-              <div class="contact-info">
-                  <p><span>Contact</span><br><br>
-                    302-593-5221<br>
-                    anthony.reynolds2021@outlook.com<br>
-                    <a href="https://1drv.ms/w/s!AiYekToLNy8VbgcCio3c-TsJZlE" target="_blank">My resume</a></p>
-              </div>
-            <div class="social">
-                <p><span>Follow me</span></p>
-                <a href="https://www.linkedin.com/in/anthony-reynolds-202074198" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/AntReyn12" target="_blank"><i class="fab fa-github-square"></i></a>
-            </div>
-            <div class="meet">
-                <p><span>Let's Meet</span><br><br>
-                  Middletown, DE<br>
-                  Let me know if you're in the area!</p>
-            </div>
+        <div class="category">
+          <h3>JavaScript</h3>
+        </div>
+        <article id="guess-the-word" class="website">
+          <figure>
+            <img src="img/guess-the-word.jpg" alt="Guess The Word" />
+          </figure>
+          <div class="website-info">
+            <a
+              href="https://antreyn12.github.io/guess-the-word/"
+              target="_blank"
+            >
+              <h4 class="website-title">
+                Guess The Word Game<br />
+                <span>JavaScript Exercise</span>
+              </h4></a
+            >
+            <p class="description">
+              My project "Guess The Word" is simple in concept. There is a
+              random word the player must guess the letters to. They have 8
+              guesses and every new game that is started, a new random word is
+              selected for the player to guess.
+            </p>
           </div>
+        </article>
+
+        <article id="github-repo-gallery" class="website">
+          <figure>
+            <img src="img/github-repo-gallery.jpg" alt="Github Repo Gallery" />
+          </figure>
+          <div class="website-info">
+            <a
+              href="https://antreyn12.github.io/github-repo-gallery/"
+              target="_blank"
+            >
+              <h4 class="website-title">
+                Github Repo Gallery<br />
+                <span>JavaScript Exercise</span>
+              </h4></a
+            >
+            <p class="description">
+              This is a JavaScript focused project in which my Github profile
+              and my repos are displayed. When a user clicks on a repo, it shows
+              more information about the repo as well as the option to view the
+              repo on Github. Feel free to browse through all the projects I've
+              been working on!
+            </p>
           </div>
-        </section>
-    </body>
+        </article>
+
+        <div class="category">
+          <h3>HTML &amp; CSS</h3>
+        </div>
+        <article id="jubilee-austen" class="website">
+          <figure>
+            <img src="img/jubilee-austen.png" alt="Jubilee Austen Website" />
+          </figure>
+          <div class="website-info">
+            <a
+              href="https://antreyn12.github.io/Jubilee-Austen/"
+              target="_blank"
+            >
+              <h4 class="website-title">
+                Jubilee Austen Website<br />
+                <span>HTML &amp; CSS Website Design</span>
+              </h4></a
+            >
+            <p class="description">
+              This is a simple portfolio design with 3 main sections (About,
+              Work and Contact). This was the first website I ever designed and
+              was a big inspiration for my own portfolio website that you are on
+              right now.
+            </p>
+          </div>
+        </article>
+
+        <article id="rogue-pickings" class="website">
+          <figure>
+            <img src="img/rogue-pickings.png" alt="Rogue Pickings Website" />
+          </figure>
+          <div class="website-info">
+            <a
+              href="https://antreyn12.github.io/rogue-pickings-starter/"
+              target="_blank"
+            >
+              <h4 class="website-title">
+                Rogue Pickings Project<br />
+                <span>HTML &amp; CSS from Photoshop Design Comp</span>
+              </h4></a
+            >
+            <p class="description">
+              My project titled "Rogue Pickings" displays a mock-up home page
+              website for a business. This project incorporated formatting
+              various sections to give the website a clean and organized look on
+              all devices.
+            </p>
+          </div>
+        </article>
+
+        <article id="recipe-collection" class="website">
+          <figure>
+            <img
+              src="img/recipe-collection.png"
+              alt="Recipe Collection Website"
+            />
+          </figure>
+          <div class="website-info">
+            <a
+              href="https://antreyn12.github.io/recipe-project/"
+              target="_blank"
+            >
+              <h4 class="website-title">
+                Recipe Collection<br />
+                <span>HTML &amp; CSS Exercise</span>
+              </h4></a
+            >
+            <p class="description">
+              This project displays three recipes, including the prep time, cook
+              time, total time, ingredients and directions for each recipe. This
+              project is heavily CSS focused and was a great way for me to hone
+              in on my styling skills.
+            </p>
+          </div>
+        </article>
+
+        <article id="vision-board" class="website">
+          <figure>
+            <img src="img/vision-board.jpg" alt="Recipe Collection Website" />
+          </figure>
+          <div class="website-info">
+            <a href="https://antreyn12.github.io/vision-board/" target="_blank">
+              <h4 class="website-title">
+                Vision Board<br />
+                <span>HTML &amp; CSS Exercise</span>
+              </h4></a
+            >
+            <p class="description">
+              This is a simple vision board project I worked on. I displayed
+              some of the goals I have for 2021 in a clean and efficient way.
+              This project tested my use of CSS but I had a lot of fun learning
+              and improving on my CSS abilities.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="content-wrapper">
+        <h2>About Me</h2>
+        <article class="about-section">
+          <div class="image-div">
+            <figure>
+              <img src="img/pro-pic.jpg" alt="Picture of Me" />
+            </figure>
+          </div>
+          <div class="about-me">
+            <p>
+              <span
+                >Welcome! I am 25 years old from Middletown, Delaware. Please
+                refrain from the classic "Dela-where?" jokes. We are very aware
+                of how small of a state we are!</span
+              ><br /><br />
+              All jokes aside, I graduated from the University of Delaware with
+              a degree in Psychology and a minor in Philosophy. Website
+              development is a passion I discovered during the COVID pandemic.
+              While on lockdown I took the initiative to grow my skill set and
+              learn how to code, and I could not be happier with my decision. I
+              discovered that a career in tech was perfect for me. At the moment
+              I am proficient in HTML, CSS, Git, JavaScript and React, but I am
+              continuing to learn new languages and skills every day. I have the
+              ability to learn new concepts quickly and I am persistent when
+              working on any project so it turns out the absolute best it can
+              be. I pride myself on my work ethic, punctuality and ability to
+              work well with others. The opportunity to better myself each and
+              every day is what drives me. <br /><br />
+              Thank you for checking out my website and I am looking forward to
+              working with you!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="content-wrapper">
+        <h2>Skills &amp; Tools</h2>
+        <div class="skills-section">
+          <ul>
+            <div class="first-half">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>FTP &amp; Web Hosting</li>
+              <li>Git and Github</li>
+              <li>Version Control</li>
+              <li>Flexbox</li>
+              <li>Media Queries</li>
+            </div>
+            <div class="second-half">
+              <li>Responsive Websites</li>
+              <li>APIS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>ES6</li>
+              <li>JSX</li>
+              <li>Managing Data Flow</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="content-wrapper">
+        <h2>Let's Connect</h2>
+        <div class="contact-section">
+          <div class="contact-info">
+            <p>
+              <span>Contact</span><br /><br />
+              302-593-5221<br />
+              <a href="mailto:anthony.reynolds2021@outlook.com"
+                >anthony.reynolds2021@outlook.com</a
+              ><br />
+              <a
+                href="https://1drv.ms/w/s!AiYekToLNy8VbgcCio3c-TsJZlE"
+                target="_blank"
+                >My resume</a
+              >
+            </p>
+          </div>
+          <div class="social">
+            <p><span>Follow me</span></p>
+            <a
+              href="https://www.linkedin.com/in/anthony-reynolds-202074198"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/AntReyn12" target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </div>
+          <div class="meet">
+            <p>
+              <span>Let's Meet</span><br /><br />
+              Middletown, DE<br />
+              Let me know if you're in the area!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
