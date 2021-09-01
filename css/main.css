@@ -98,10 +98,13 @@ header a {
 #portfolio h2 {
   text-align: center;
   padding-top: 5px;
+  padding-bottom: 25px;
   font-family: "Lato", sans-serif;
-  font-size: 2.5em;
+  font-size: 60px;
   color: #004d4d;
   margin-bottom: 35px;
+  width: 100%;
+  border-bottom: solid #004d4d;
 }
 
 #portfolio .content-wrapper {
@@ -122,7 +125,7 @@ header a {
 .category h3 {
   text-align: center;
   color: #004d4d;
-  font-size: 2em;
+  font-size: 60px;
   text-decoration: underline;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -132,11 +135,13 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   padding-top: 0;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+  border-bottom: solid #70b7c6;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .website img {
@@ -144,7 +149,7 @@ header a {
 }
 
 .website-info {
-  padding-left: 75px;
+  padding-left: 0;
   padding-top: 15px;
   color: #004d4d;
   text-align: left;
@@ -152,20 +157,25 @@ header a {
   width: 100%;
   font-size: 1.875em;
   margin-right: 15px;
+  margin-top: 20px;
 }
 
 .website figure {
   border: 1px solid #004d4d;
+  width: 75%;
+  margin-bottom: 25px;
 }
 
 .website-title span {
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 20px;
 }
 
 .website-title {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 25px;
+  font-size: 55px;
 }
 
 .website a {
@@ -173,8 +183,14 @@ header a {
   color: #006080;
 }
 .description {
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
   font-family: "Raleway", sans-serif;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 #rogue-pickings .website-title span {
@@ -198,20 +214,28 @@ header a {
 
 #about .about-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-div {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 #about img {
   width: 100%;
   border: 1px solid white;
-  margin-left: 10px;
-  min-height: 550px;
+  min-height: 400px;
 }
 
-.image-div {
-  flex-shrink: 1.5;
-  padding-right: 30px;
+#about figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
 }
 
 #about h2 {
@@ -219,22 +243,25 @@ header a {
   padding-top: 0;
   font-family: "Lato", sans-serif;
   text-decoration: underline;
-  font-size: 36px;
+  font-size: 50px;
 }
 
 .about-me {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 20px;
-  margin-top: 0;
-  padding-top: 0;
-  line-height: 26px;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 15px 50px;
 }
 
 #about span {
-  font-size: 24px;
+  font-size: 36px;
   line-height: 26px;
+}
+
+#about p {
+  text-align: center;
+  font-size: 36px;
 }
 
 #skills .content-wrapper {
@@ -249,26 +276,30 @@ header a {
 #skills h2 {
   margin: 0;
   font-family: "Lato", sans-serif;
-  font-size: 40px;
+  font-size: 60px;
   text-decoration: underline;
   padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .skills-section {
+  display: flex;
+  flex-flow: row wrap;
   font-family: "Raleway", sans-serif;
   padding-top: 25px;
-  padding-bottom: 25px;
-  width: 50%;
+  padding-bottom: 50px;
+  width: 100%;
 }
 
 .skills-section ul {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-direction: row;
   list-style-type: circle;
-  font-size: 25px;
+  font-size: 45px;
   width: 100%;
+  padding: 20px;
 }
 
 #contact {
@@ -286,7 +317,7 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -298,7 +329,7 @@ header a {
   text-align: center;
   padding-top: 0;
   font-family: "Lato", sans-serif;
-  font-size: 36px;
+  font-size: 65px;
   margin-top: 0;
   padding-top: 20px;
   text-decoration: underline;
@@ -307,18 +338,18 @@ header a {
 .contact-info,
 .social,
 .meet {
-  font-size: 22px;
+  font-size: 40px;
   flex-basis: 33%;
 }
 
 #contact span {
   font-family: "Lato", sans-serif;
-  font-size: 24px;
+  font-size: 55px;
   text-decoration: underline;
 }
 
 #contact i {
-  font-size: 36px;
+  font-size: 60px;
   color: #006080;
 }
 
@@ -327,313 +358,157 @@ header a {
   color: #006080;
 }
 
-/***** TABLET ONLY *****/
+@media screen and (min-width: 1200px) {
+  /***** DESKTOP ONLY *****/
 
-/***** DESKTOP ONLY *****/
-@media only screen and (min-width: 1200px) {
   header {
-    background-image: url("../img/desk.jpg");
-    background-position: center;
-    background-size: cover;
-    width: 100%;
     min-height: 700px;
   }
 
-  header .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-  header h1,
   header p {
-    text-align: center;
-  }
-  header h1 {
-    padding-top: 100px;
-    font-size: 3.5em;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    color: bisque;
-    text-decoration: underline bisque;
-    text-shadow: 0.06em 0 black, 0 0.06em black, -0.06em 0 black,
-      0 -0.06em black;
-  }
-
-  header p {
-    font-size: 2.3em;
-    font-weight: bold;
-    color: black;
-    text-decoration: underline black;
-    text-shadow: 0.07em 0 white, 0 0.07em white, -0.07em 0 white,
-      0 -0.07em white;
     margin-bottom: 50px;
     padding-top: 125px;
   }
 
-  header .container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
   header nav {
     font-size: 1.75em;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: white;
     width: 45%;
   }
 
-  header nav ul {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 20px;
-  }
-
-  header nav li {
-    padding: 10px;
-  }
-
-  header a {
-    text-decoration: underline;
-    color: black;
-    font-weight: bold;
-  }
   /***** MY PORTFOLIO *****/
   #portfolio h2 {
-    text-align: center;
-    padding-top: 5px;
-    font-family: "Lato", sans-serif;
     font-size: 2.5em;
-    color: #004d4d;
-    margin-bottom: 35px;
-  }
-
-  #portfolio .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
-  }
-
-  .category {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 25px;
   }
 
   .category h3 {
-    text-align: center;
-    color: #004d4d;
     font-size: 2em;
-    text-decoration: underline;
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase;
   }
 
   .website {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding-top: 0;
+    flex-direction: row;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
-  }
-
-  .website img {
-    width: 100%;
+    border-bottom: none;
   }
 
   .website-info {
     padding-left: 75px;
-    padding-top: 15px;
-    color: #004d4d;
-    text-align: left;
-    font-family: "Lato", sans-serif;
-    width: 100%;
-    font-size: 1.875em;
-    margin-right: 15px;
+    margin-top: 0;
   }
 
   .website figure {
-    border: 1px solid #004d4d;
+    width: 100%;
+    margin-bottom: 0;
   }
 
   .website-title span {
     font-size: 20px;
-    padding-top: 20px;
   }
 
   .website-title {
-    margin-top: 0;
-    margin-bottom: 25px;
+    text-align: left;
+    font-size: 30px;
   }
 
-  .website a {
-    text-decoration: underline;
-    color: #006080;
-  }
   .description {
+    justify-content: initial;
+    align-items: initial;
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
-  }
-
-  #rogue-pickings .website-title span {
-    line-height: 5px;
-  }
-
-  #about {
-    background-color: #006080;
-    margin-top: 25px;
-    color: #ccffff;
-    padding-bottom: 50px;
-  }
-
-  #about .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
+    width: auto;
+    text-align: left;
+    padding-bottom: 0;
   }
 
   #about .about-section {
-    display: flex;
     justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
   }
 
   #about img {
-    width: 100%;
-    border: 1px solid white;
     margin-left: 10px;
     min-height: 550px;
   }
 
   .image-div {
+    display: initial;
+    justify-content: initial;
+    align-items: initial;
     flex-shrink: 1.5;
     padding-right: 30px;
   }
 
+  #about figure {
+    display: initial;
+    align-items: initial;
+    justify-content: initial;
+    width: initial;
+  }
+
   #about h2 {
-    text-align: center;
-    padding-top: 0;
-    font-family: "Lato", sans-serif;
-    text-decoration: underline;
     font-size: 36px;
   }
 
   .about-me {
+    display: initial;
+    align-items: initial;
+    justify-content: initial;
+    padding-bottom: initial;
+    padding-top: 0;
+    padding-left: initial;
+    padding-right: initial;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
     margin-top: 0;
-    padding-top: 0;
     line-height: 26px;
     width: 100%;
   }
 
   #about span {
     font-size: 24px;
-    line-height: 26px;
   }
 
-  #skills .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #70b7c6;
-    color: #c2f7f9;
+  #about p {
+    text-align: initial;
+    font-size: 20px;
   }
 
   #skills h2 {
-    margin: 0;
-    font-family: "Lato", sans-serif;
     font-size: 40px;
-    text-decoration: underline;
     padding-top: 30px;
     padding-bottom: 20px;
   }
 
   .skills-section {
-    display: flex;
-    flex-flow: row wrap;
-    font-family: "Raleway", sans-serif;
     padding-top: 30px;
     padding-bottom: 75px;
-    width: 100%;
   }
 
   .skills-section ul {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    list-style-type: circle;
     font-size: 30px;
-    width: 100%;
-  }
-
-  #contact {
-    background-color: #ccffff;
-    color: #006080;
-    text-align: center;
-    padding-bottom: 50px;
-  }
-
-  #contact .content-wrapper {
-    width: 100%;
+    padding: 10px;
   }
 
   #contact .contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
-    width: 100%;
-  }
-
-  #contact .contact-info {
-    padding-left: 10px;
   }
 
   #contact h2 {
-    text-align: center;
-    padding-top: 0;
-    font-family: "Lato", sans-serif;
     font-size: 36px;
-    margin-top: 0;
-    padding-top: 20px;
-    text-decoration: underline;
   }
 
   .contact-info,
   .social,
   .meet {
     font-size: 22px;
-    flex-basis: 33%;
   }
 
   #contact span {
-    font-family: "Lato", sans-serif;
     font-size: 24px;
-    text-decoration: underline;
   }
 
   #contact i {
     font-size: 36px;
-    color: #006080;
-  }
-
-  #contact a {
-    text-decoration: underline;
-    color: #006080;
   }
 }
