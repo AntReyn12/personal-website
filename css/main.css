@@ -46,21 +46,21 @@ header p {
 }
 header h1 {
   padding-top: 100px;
-  font-size: 3.5em;
+  font-size: 4em;
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  color: bisque;
-  text-decoration: underline bisque;
+  color: white;
+  text-decoration: underline white;
   text-shadow: 0.06em 0 black, 0 0.06em black, -0.06em 0 black, 0 -0.06em black;
 }
 
 header p {
-  font-size: 2.3em;
+  font-size: 3em;
   font-weight: bold;
-  color: black;
-  text-decoration: underline black;
+  color: white;
+  text-decoration: underline white;
   margin-bottom: 125px;
-  text-shadow: 0.07em 0 white, 0 0.07em white, -0.07em 0 white, 0 -0.07em white;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
 }
 
 header .container {
@@ -70,7 +70,7 @@ header .container {
 }
 
 header nav {
-  font-size: 2.25em;
+  font-size: 2.5em;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -366,6 +366,7 @@ header a {
   }
 
   header p {
+    font-size: 2.5em;
     margin-bottom: 50px;
     padding-top: 125px;
   }
