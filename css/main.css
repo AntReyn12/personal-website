@@ -284,7 +284,7 @@ header a {
 
 .skills-section {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   font-family: "Raleway", sans-serif;
   padding-top: 25px;
   padding-bottom: 50px;
@@ -294,8 +294,8 @@ header a {
 .skills-section ul {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
   list-style-type: circle;
   font-size: 45px;
   width: 100%;
