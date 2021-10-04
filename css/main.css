@@ -52,6 +52,7 @@ header h1 {
   font-weight: bold;
   color: white;
   text-decoration: underline white;
+  -webkit-text-decoration: underline white;
   text-shadow: 0.06em 0 black, 0 0.06em black, -0.06em 0 black, 0 -0.06em black;
 }
 
@@ -60,6 +61,7 @@ header p {
   font-weight: bold;
   color: white;
   text-decoration: underline white;
+  -webkit-text-decoration: underline white;
   text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
   margin-bottom: 125px;
 }
